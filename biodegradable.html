@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Processing Organic Waste</title>
+    <link rel="stylesheet" href="plastic_styles.css" />
+    <link rel="shortcut icon" href="./media/favicon.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navigation part -->
+    <div id="nav">
+      <div id="nav-part1">
+        <img
+          src="./media/ec20.svg"
+          alt="ec20 logo"
+          height="80px"
+          width="80px"
+        />
+        <img
+          src="./media/ec20_second.svg"
+          alt="ec20 second logo"
+          height="80px"
+          width="80px"
+        />
+      </div>
+
+      <div id="nav-part2">
+        <div id="links">
+          <a href="./index.html">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <button
+          id="menuToggle"
+          class="reset-button"
+          title="Open Menu"
+          style="border: 0; background-color: #f7f7f7"
+        >
+          <i class="ri-menu-4-fill"></i>
+        </button>
+        <i class="ri-shopping-cart-2-fill"></i>
+      </div>
+    </div>
+
+    <div id="menuOverlay">
+      <div id="menuContent">
+        <button id="closeButton" class="reset-button" title="Close Menu">
+          <i class="ri-close-line" style="color: white"></i>
+        </button>
+        <nav>
+          <div class="other-menu">
+            <ul>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Wholesale</a></li>
+              <li><a href="#">Stories</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Impact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="social-links">
+          <a href="mailto:envirocompost20@gmail.com">Send us a mail!</a>
+          <a href="tel:=919441673006">Give us a Call!</a>
+          <a href="sms:+919441673006">Send us a Text!</a>
+          <a href="https://www.instagram.com/">Instagram</a>
+          <a
+            id="socials"
+            href="#"
+            style="font-family: Futura; text-transform: uppercase"
+            >Socials:</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div id="maindiv">
+      <div id="page1div">
+        <h1>Processing Organic Waste</h1>
+
+        <!-- <img
+          src="https://t3.ftcdn.net/jpg/04/90/50/96/360_F_490509683_o2MIQMVzXmVuhfZaAGY18ao1R6hGugrc.jpg"
+          alt="degradable waste to compost"
+        /> -->
+        <img
+          src="https://img.freepik.com/free-photo/assortment-compost-made-rotten-food-with-copy-space_23-2149073823.jpg?w=1060&t=st=1720039784~exp=1720040384~hmac=2059b02d4105a5ce5f285fd35fb5411f550129f97aaae1ba51da081e7de891ef"
+          alt="degradable waste to compost"
+        />
+      </div>
+
+      <div
+        class="spanned"
+        style="padding-left: 20px; padding-right: 20px; padding-top: 20px"
+      >
+        <div class="spans">
+          <span id="spans1">EC20</span>
+          <span id="spans2">ENVIROCOMPOST20</span>
+        </div>
+        <div class="spancontainer"></div>
+      </div>
+
+      <div id="page2div">
+        <div class="heading-two" style="padding: 2.5vh 2.5vh">
+          <h2>Why Process the Organic Waste?</h2>
+          <p>
+            The main source of garbage is generated in our houses. Because of
+            the massive volume of garbage being produced, landfills are
+            overflowing and poor waste management is occurring. These waste
+            materials originate from our homes and workplaces and come in a
+            variety of sizes, forms, and compositions. Household garbage that
+            can eventually be broken down by bacteria or fungi is known as
+            bio-waste. This can take anything from two days to nearly two
+            months, or even longer. Poultry waste doesn't break down; instead,
+            it only draws various pests to it, despite the common misconception
+            that it is part of bio-waste. When handled correctly, biowaste may
+            easily be composted in a short amount of time. But because incorrect
+            segregation techniques were used, this kind of waste cannot process
+            itself in the amount of time it uses.
+          </p>
+        </div>
+        <div></div>
+
+        <div class="timeline" style="padding-top: 3.5vh; padding-bottom: 3.5vh">
+          <div
+            class="timeline-event odd"
+            style="padding-right: 500px; padding-left: 200px"
+          >
+            <div class="timeline-event-number" style="margin-top: 15px">1</div>
+            <div class="timeline-event-content" style="height: 150px">
+              <div class="timeline-event-date">Waste Placement</div>
+              <p>
+                Users place waste on the segregation plate, which is equipped<br />with
+                sensors for automated analysis. Which analyzes if the
+                percentage<br />
+                of plastic contents in the waste is more than 60% or less than
+                60%.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-event even"
+            style="padding-left: 500px; padding-right: 200px"
+          >
+            <div class="timeline-event-number" style="margin-top: 15px">2</div>
+            <div class="timeline-event-content" style="height: 155px">
+              <div class="timeline-event-date">Degradability Analysis</div>
+              <p>
+                Sensors on the segregation plate analyze the quantity of plastic
+                waste<br />
+                and determine its degradability percentage. This analysis
+                assesses how <br />easily and naturally the waste can break down
+                or decompose.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-event odd"
+            style="padding-right: 500px; padding-left: 200px"
+          >
+            <div class="timeline-event-number" style="margin-top: 15px">3</div>
+            <div class="timeline-event-content">
+              <div class="timeline-event-date">Segregation Process</div>
+              <p>
+                According to the analytical results, the segregation plate
+                automatically <br />divides the trash into two categories:<br />
+                Organic waste is biodegradable and appropriate for
+                composting.<br />
+                Non-organic waste cannot be biodegraded and must be treated
+                differently.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-event even"
+            style="padding-left: 500px; padding-right: 200px"
+          >
+            <div class="timeline-event-number" style="margin-top: 15px">4</div>
+            <div class="timeline-event-content" style="height: 180px">
+              <div class="timeline-event-date">Waste Crushing</div>
+              <p>
+                Organic waste identified by the segregation plate proceeds to
+                the <br />waste crusher. Here, the waste is mechanically crushed
+                into smaller,<br />
+                more manageable pieces. This process prepares the organic
+                waste<br />
+                for further decomposition and composting.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-event odd"
+            style="padding-right: 500px; padding-left: 200px"
+          >
+            <div class="timeline-event-number" style="margin-top: 15px">5</div>
+            <div class="timeline-event-content" style="height: 153px">
+              <div class="timeline-event-date">Vibration Separation</div>
+              <p>
+                The waste that passes through the crusher now falls onto a<br />
+                segregation plate. This plate ensures that non-degradable<br />
+                elements present in the accepted waste is segregated.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-event even"
+            style="padding-left: 500px; padding-right: 200px"
+          >
+            <div class="timeline-event-number" style="margin-top: 15px">6</div>
+            <div class="timeline-event-content" style="height: 150px">
+              <div class="timeline-event-date">Composting Preparation</div>
+              <p>
+                Organic waste that has been crushed and prepared through the
+                initial <br />stages is transferred to the composting unit. This
+                unit creates a <br />controlled environment conducive to the
+                natural decomposition process.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-event odd"
+            style="padding-right: 500px; padding-left: 200px"
+          >
+            <div class="timeline-event-number" style="margin-top: 15px">7</div>
+            <div class="timeline-event-content">
+              <div class="timeline-event-date">
+                Composting and Larvae Hosting
+              </div>
+              <p>
+                Within the composting unit, the waste undergoes composting<br />
+                facilitated by larvae. Larvae naturally break down organic
+                matter, <br />accelerating the composting process. This
+                controlled environment <br />ensures optimal conditions for
+                decomposition, yielding <br />nutrient-rich compost in just 20
+                days.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-event even"
+            style="padding-left: 500px; padding-right: 200px"
+          >
+            <div class="timeline-event-number" style="margin-top: 15px">8</div>
+            <div class="timeline-event-content" style="height: 153px">
+              <div class="timeline-event-date">Processing the Compost</div>
+              <p>
+                The compost is obtained after a period of 20 days. This compost
+                procured <br />from the machine and transported to refining
+                facilities, where<br />
+                the compost is segregated, refined, and then packed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
